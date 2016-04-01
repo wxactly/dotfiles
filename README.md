@@ -1,5 +1,5 @@
-# dotfiles
+# Dotfiles
 My dotfiles, targeting OS X and Zsh.
 
-Dotfiles uses [Dotbot](https://github.com/anishathalye/dotbot) for installation.
-
+## Credits
+Thanks to Anish Athalye for [Dotbot](https://github.com/anishathalye/dotbot).
