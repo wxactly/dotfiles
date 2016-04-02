@@ -6,6 +6,7 @@
 - clean: ['~']
 
 - link:
+    ~/.tumx.conf: tmux.conf
     ~/.vimrc: vimrc
 
 - shell:
