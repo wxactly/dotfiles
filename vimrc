@@ -1,29 +1,12 @@
-" VUNDLE
+set nocompatible
 
-set nocompatible             " be iMproved, required
-filetype off                 " required
+" PLUGINS
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-
-Plugin 'kana/vim-arpeggio'
-Plugin 'tpope/vim-sensible'
-Plugin 'tpope/vim-eunuch'
-Plugin 'tpope/vim-fugitive'
-Plugin 'L9'
-Plugin 'bronson/vim-trailing-whitespace'
-Plugin 'itchyny/lightline.vim'
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
+call pathogen#helptags()
 
 call arpeggio#load()
-
 
 " CUSTOM
 

@@ -1,3 +1,24 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "vim/bundle/vim-pathogen"]
+	path = vim/bundle/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen
+[submodule "vim/bundle/lightline.vim"]
+	path = vim/bundle/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule "vim/bundle/vim-arpeggio"]
+	path = vim/bundle/vim-arpeggio
+	url = https://github.com/kana/vim-arpeggio
+[submodule "vim/bundle/vim-eunuch"]
+	path = vim/bundle/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch
+[submodule "vim/bundle/vim-fugitive"]
+	path = vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "vim/bundle/vim-sensible"]
+	path = vim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible
+[submodule "vim/bundle/vim-trailing-whitespace"]
+	path = vim/bundle/vim-trailing-whitespace
+	url = https://github.com/bronson/vim-trailing-whitespace
