@@ -1,11 +1,4 @@
-" VIM
-
-set term=xterm-256color
-set t_Co=256
-set background=dark
-
-
-" PLUGINS
+" VUNDLE
 
 set nocompatible             " be iMproved, required
 filetype off                 " required
@@ -51,13 +44,15 @@ set list                     " Show invisible characters
 set ignorecase               " searches are case insensitive...
 set smartcase                " ... unless they contain at least one capital letter
 
-set clipboard=unnamed
-set noshowmode
+set clipboard=unnamed        " Use the system clipboard
+set noshowmode               " Hide insert mode display - handled by theme
 
 " Set backup directories
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
 set undodir=~/.vim/undo//
+
+set listchars=extends:>,precedes:<,nbsp:+
 
 let mapleader = ","
 let maplocalleader = "\\"
@@ -129,12 +124,10 @@ omap <A-[> <<
 imap <A-]> <Esc>>>i
 imap <A-[> <Esc><<i
 
-" http://vim.wikia.com/wiki/Replace_a_word_with_yanked_text
-nnoremap S diw"0P
-vnoremap S "_d"0P
-
 
 " THEME
+
+set background=dark          " tell vim we're using a dark background
 
 let g:lightline = {
 \ 'colorscheme': 'wombat',
@@ -153,3 +146,4 @@ let g:lightline = {
 \   'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'
 \ }
 \ }
+
