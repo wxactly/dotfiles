@@ -20,8 +20,7 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.composer/vendor/bin"
 
-# Use Homebrew's directories rather than ~/.rbenv
-export RBENV_ROOT=/usr/local/var/rbenv
+eval "$(rbenv init -)"
 
 # Preferred editor
 export EDITOR='vim'
