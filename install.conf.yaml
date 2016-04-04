@@ -6,9 +6,13 @@
 - clean: ['~']
 
 - link:
+    ~/.oh-my-zsh: oh-my-zsh
     ~/.tumx.conf: tmux.conf
     ~/.vim: vim
     ~/.vimrc: vimrc
+    ~/.zsh: zsh
+    ~/.zshrc: zshrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+

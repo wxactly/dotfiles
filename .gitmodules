@@ -22,3 +22,12 @@
 [submodule "vim/bundle/vim-trailing-whitespace"]
 	path = vim/bundle/vim-trailing-whitespace
 	url = https://github.com/bronson/vim-trailing-whitespace
+[submodule "oh-my-zsh"]
+	path = oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh
+[submodule "zsh/custom/plugins/alias-tips"]
+	path = zsh/custom/plugins/alias-tips
+	url = https://github.com/djui/alias-tips
+[submodule "zsh/custom/plugins/zsh-saneopt"]
+	path = zsh/custom/plugins/zsh-saneopt
+	url = https://github.com/willghatch/zsh-saneopt
