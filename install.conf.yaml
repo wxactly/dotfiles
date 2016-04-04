@@ -6,6 +6,7 @@
 - clean: ['~']
 
 - link:
+    ~/.composer: composer
     ~/.oh-my-zsh: oh-my-zsh
     ~/.tumx.conf: tmux.conf
     ~/.vim: vim
@@ -15,4 +16,5 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [composer global update, Installing composer packages]
 

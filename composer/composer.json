@@ -1,0 +1,6 @@
+{
+    "require": {
+        "codegyre/robo": "~0.7",
+        "pantheon-systems/terminus": "~0.11"
+    }
+}
