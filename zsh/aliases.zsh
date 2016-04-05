@@ -1,5 +1,6 @@
 alias git=hub
-alias sourcezshrc="source ~/.zshrc"
+alias hcl="RBENV_VERSION=2.0.0-p648 hcl"
+
 alias vimrc="vim ~/.vimrc"
 alias restart="brew services restart"
 alias rmt="rmtrash"
@@ -24,3 +25,4 @@ alias drfr='drush -y features-revert'
 alias dr='drush'
 alias dml='modlist'
 alias druli='drush user-login -l'
+
