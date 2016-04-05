@@ -7,11 +7,8 @@ export EDITOR='vim'
 # Disable auto-setting terminal title.
 DISABLE_AUTO_TITLE="true"
 
-# Enable command auto-correction.
-ENABLE_CORRECTION="true"
-
 # Oh My Zsh
-plugins=(zsh-saneopt vi-mode common-aliases osx fasd git git-extras brew brew-cask composer alias-tips)
+plugins=(zsh-saneopt vi-mode common-aliases osx extract fasd git git-extras brew brew-cask composer alias-tips)
 
 source $ZSH/oh-my-zsh.sh
 
