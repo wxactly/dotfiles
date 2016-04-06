@@ -1,6 +1,10 @@
 {
     "require": {
         "codegyre/robo": "~0.7",
-        "pantheon-systems/terminus": "~0.11"
+        "drupal/coder": "~8.2",
+        "drush/config-extra": "~1.0",
+        "drush/drush": "~8.0",
+        "pantheon-systems/terminus": "~0.11",
+        "phpunit/phpunit": "~5.3"
     }
 }
