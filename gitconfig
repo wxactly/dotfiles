@@ -1,0 +1,31 @@
+[user]
+  name = Jaymz Rhime
+  email = wxactly@gmail.com
+[branch]
+  autosetuprebase = always
+[push]
+  default = simple
+[help]
+  autocorrect = -1
+[core]
+  autocrlf = false
+  excludesfile = ~/.gitignore
+  editor = vim
+  pager = less -r
+[color]
+  ui = true
+[diff]
+  tool = p4mergetool
+  algorithm = patience
+  renamelimit = 10000
+[difftool "p4mergetool"]
+  cmd = /opt/homebrew-cask/Caskroom/p4merge/2015.2-1312139/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
+[merge]
+  tool = p4mergetool
+  renamelimit = 10000
+[mergetool]
+  keepBackup = false
+  prompt = false
+[mergetool "p4mergetool"]
+  cmd = /opt/homebrew-cask/Caskroom/p4merge/2015.2-1312139/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$REMOTE $PWD/$LOCAL $PWD/$MERGED
+  trustExitCode = false

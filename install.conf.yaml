@@ -8,6 +8,8 @@
 - link:
     ~/.ackrc: ackrc
     ~/.composer: composer
+    ~/.gitconfig: gitconfig
+    ~/.gitignore: gitignore
     ~/.oh-my-zsh: oh-my-zsh
     ~/.tumx.conf: tmux.conf
     ~/.vim: vim
