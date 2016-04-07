@@ -6,6 +6,7 @@
 - clean: ['~']
 
 - link:
+    ~/.ackrc: ackrc
     ~/.composer: composer
     ~/.oh-my-zsh: oh-my-zsh
     ~/.tumx.conf: tmux.conf
