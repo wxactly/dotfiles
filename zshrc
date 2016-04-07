@@ -8,7 +8,7 @@ export EDITOR='vim'
 DISABLE_AUTO_TITLE="true"
 
 # Oh My Zsh
-plugins=(zsh-saneopt vi-mode common-aliases osx extract fasd git git-extras brew brew-cask composer alias-tips)
+plugins=(zsh-saneopt vi-mode common-aliases osx extract fasd git git-extras brew brew-cask composer alias-tips zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
