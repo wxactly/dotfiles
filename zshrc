@@ -8,9 +8,26 @@ export EDITOR='vim'
 DISABLE_AUTO_TITLE="true"
 
 # Oh My Zsh
-plugins=(zsh-saneopt vi-mode common-aliases osx extract fasd git git-extras brew brew-cask composer alias-tips zsh-syntax-highlighting)
+plugins=(
+  zsh-saneopt
+  vi-mode
+  zsh-completions
+  common-aliases
+  osx
+  fasd
+  git
+  git-extras
+  brew
+  brew-cask
+  composer
+  extract
+  alias-tips
+  zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
+
+autoload -U compinit && compinit
 
 # Env
 export PATH="$HOME/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
