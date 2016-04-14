@@ -14,17 +14,15 @@
 [color]
   ui = true
 [diff]
-  tool = p4mergetool
+	tool = p4mergetool
   algorithm = patience
   renamelimit = 10000
-[difftool "p4mergetool"]
-  cmd = /opt/homebrew-cask/Caskroom/p4merge/2015.2-1312139/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
 [merge]
-  tool = p4mergetool
+	tool = p4mergetool
   renamelimit = 10000
 [mergetool]
-  keepBackup = false
-  prompt = false
+	keepBackup = false
 [mergetool "p4mergetool"]
-  cmd = /opt/homebrew-cask/Caskroom/p4merge/2015.2-1312139/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$REMOTE $PWD/$LOCAL $PWD/$MERGED
-  trustExitCode = false
+	cmd = /Users/wxactly/Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$LOCAL $PWD/$REMOTE $PWD/$MERGED
+[difftool "p4mergetool"]
+	cmd = /Users/wxactly/Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
