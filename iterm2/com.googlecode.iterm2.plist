@@ -1267,7 +1267,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>599 273 592 584 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1920 1080 0 0 1920 1080 </string>
+	<string>0 0 1280 800 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>173 32 570 452 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1566,15 +1566,15 @@
 			<key>Cursor Guide Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>0.25</real>
+				<real>0.062745098039215685</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.99934029579162598</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.9100000262260437</real>
+				<real>0.91002440452575684</real>
 				<key>Red Component</key>
-				<real>0.64999997615814209</real>
+				<real>0.650002121925354</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -2082,8 +2082,10 @@
 	</array>
 	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
 	<true/>
+	<key>NoSyncInstallationId</key>
+	<string>BCA603C9-EF96-4783-9530-956110ABEF4E</string>
 	<key>NoSyncLastTipTime</key>
-	<real>484081268.36856699</real>
+	<real>485376813.26517999</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2138,6 +2140,18 @@
 		<string>0038</string>
 		<string>0039</string>
 		<string>0040</string>
+		<string>0041</string>
+		<string>0042</string>
+		<string>0043</string>
+		<string>0044</string>
+		<string>0045</string>
+		<string>0046</string>
+		<string>0047</string>
+		<string>0048</string>
+		<string>0049</string>
+		<string>0050</string>
+		<string>0051</string>
+		<string>0052</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
@@ -2187,11 +2201,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing3.xml</string>
+	<string>https://iterm2.com/appcasts/testing3.xml?shard=94</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-04-27T18:40:02Z</date>
+	<date>2016-05-14T22:50:37Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -2223,7 +2237,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20160313</string>
+	<string>2.9.20160426</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
