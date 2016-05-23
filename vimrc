@@ -47,7 +47,11 @@ vnoremap : ;
 Arpeggio inoremap jk <Esc>
 Arpeggio vnoremap jk <Esc>
 
-nnoremap Y y$
+let g:EasyClipAlwaysMoveCursorToEndOfPaste = 1
+let g:EasyClipShareYanks = 1
+let g:EasyClipUseSubstituteDefaults = 1
+
+nmap M <Plug>MoveMotionEndOfLinePlug
 
 " Don't use Ex mode, use Q for formatting
 map Q gq

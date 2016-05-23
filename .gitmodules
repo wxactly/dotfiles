@@ -37,3 +37,9 @@
 [submodule "zsh/plugins/zsh-completions"]
 	path = zsh/plugins/zsh-completions
 	url = git://github.com/zsh-users/zsh-completions.git
+[submodule "vim/bundle/vim-repeat"]
+	path = vim/bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "vim/bundle/vim-easyclip"]
+	path = vim/bundle/vim-easyclip
+	url = git://github.com/svermeulen/vim-easyclip.git
