@@ -30,7 +30,7 @@ source $ZSH/oh-my-zsh.sh
 autoload -U compinit && compinit
 
 # Env
-export PATH="$HOME/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
 
 eval "$(rbenv init -)"
 

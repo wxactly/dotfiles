@@ -3,6 +3,7 @@ alias hcl="RBENV_VERSION=2.0.0-p648 hcl"
 
 alias vimrc="vim ~/.vimrc"
 alias restart="brew services restart"
+alias restartsites="restart mysql; restart memcached; restart httpd22"
 alias rmt="rmtrash"
 alias n="notify"
 
