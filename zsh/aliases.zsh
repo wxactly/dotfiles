@@ -2,10 +2,19 @@ alias git=hub
 alias hcl="RBENV_VERSION=2.0.0-p648 hcl"
 
 alias vimrc="vim ~/.vimrc"
-alias restart="brew services restart"
-alias restartsites="restart mysql; restart memcached; restart httpd22"
 alias rmt="rmtrash"
 alias n="notify"
+
+function restart() {
+  if [ "$1" = "sites" ]; then
+    restart mysql memcached httpd22
+  else
+    for service in "$@"
+    do
+      brew services restart "$service"
+    done
+  fi
+}
 
 # Drupal and Drush aliases.
 # https://github.com/nuvoleweb/drush_alias
