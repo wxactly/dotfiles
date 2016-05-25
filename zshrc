@@ -36,3 +36,4 @@ eval "$(rbenv init -)"
 
 # http://superuser.com/a/479614/261574
 set -o ignoreeof
+
