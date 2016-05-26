@@ -10,6 +10,9 @@ DISABLE_UPDATE_PROMPT=true
 # Disable auto-setting terminal title.
 DISABLE_AUTO_TITLE="true"
 
+# Expand command to get best alias.
+export ZSH_PLUGINS_ALIAS_TIPS_EXPAND=1
+
 # Oh My Zsh
 plugins=(
   zsh-saneopt
