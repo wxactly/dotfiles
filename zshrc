@@ -4,8 +4,8 @@ ZSH_THEME="wxactly"
 
 export EDITOR='vim'
 
-# Automatically upgrade without prompting.
-DISABLE_UPDATE_PROMPT=true
+# Disable automatic upgrades.
+DISABLE_AUTO_UPDATE=true
 
 # Disable auto-setting terminal title.
 DISABLE_AUTO_TITLE="true"
