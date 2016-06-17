@@ -2,6 +2,10 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_CUSTOM=$HOME/.zsh
 ZSH_THEME="wxactly"
 
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
+
+eval "$(rbenv init -)"
+
 export EDITOR='vim'
 
 # Disable automatic upgrades.
@@ -34,11 +38,6 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 autoload -U compinit && compinit
-
-# Env
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
-
-eval "$(rbenv init -)"
 
 # http://superuser.com/a/479614/261574
 set -o ignoreeof
