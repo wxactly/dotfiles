@@ -1,5 +1,7 @@
 {
     "require": {
-        "codegyre/robo": "~0.7"
-    }
+        "codegyre/robo": "~1"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
