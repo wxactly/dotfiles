@@ -2,7 +2,7 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_CUSTOM=$HOME/.zsh
 ZSH_THEME="wxactly"
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:./vendor/bin"
+export PATH="./vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
 
 eval "$(rbenv init -)"
 
