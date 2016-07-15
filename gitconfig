@@ -25,6 +25,6 @@
 [mergetool]
   keepbackup = false
 [mergetool "p4mergetool"]
-  cmd = /Users/wxactly/Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$LOCAL $PWD/$REMOTE $PWD/$MERGED
+  cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$LOCAL $PWD/$REMOTE $PWD/$MERGED
 [difftool "p4mergetool"]
-  cmd = /Users/wxactly/Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
+  cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
