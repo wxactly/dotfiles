@@ -7,7 +7,7 @@ alias n="notify"
 
 function restart() {
   if [ "$1" = "sites" ]; then
-    restart mysql memcached httpd22
+    restart mysql memcached redis httpd22
   else
     for service in "$@"
     do
@@ -35,4 +35,6 @@ alias drfr='drush -y features-revert'
 alias dr='drush'
 alias dml='modlist'
 alias druli='drush user-login -l'
+alias drcr='time drush cache-rebuild; notify cache-clear complete'
+alias drev='drush php-eval'
 
