@@ -1265,7 +1265,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>330 307 620 392 0 0 1280 800 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 83 918 512 0 0 1440 877 </string>
+	<string>269 83 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>599 273 592 584 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
@@ -2091,11 +2091,21 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/wxactly</string>
+			<string>/Users/wx</string>
 		</dict>
 	</array>
 	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
 	<true/>
+	<key>NoSyncConfirmShellIntegrationCommand</key>
+	<true/>
+	<key>NoSyncConfirmShellIntegrationCommand_selection</key>
+	<integer>0</integer>
+	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
+	<true/>
+	<key>NoSyncInstallUtilitiesPackage</key>
+	<true/>
+	<key>NoSyncInstallUtilitiesPackage_selection</key>
+	<integer>0</integer>
 	<key>NoSyncInstallationId</key>
 	<string>BCA603C9-EF96-4783-9530-956110ABEF4E</string>
 	<key>NoSyncLastTipTime</key>
