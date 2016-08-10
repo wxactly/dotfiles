@@ -1264,10 +1264,12 @@
 	<string>266 344 606 456 0 0 1280 800 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>330 307 620 392 0 0 1280 800 </string>
+	<key>NSWindow Frame SharedPreferences</key>
+	<string>269 83 918 512 0 0 1440 877 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>599 273 592 584 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1280 800 0 0 1280 800 </string>
+	<string>0 0 1440 900 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>173 32 570 452 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1602,7 +1604,7 @@
 				<real>1</real>
 			</dict>
 			<key>Custom Command</key>
-			<string>No</string>
+			<string>Yes</string>
 			<key>Custom Directory</key>
 			<string>Advanced</string>
 			<key>Default Bookmark</key>
@@ -2097,7 +2099,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>BCA603C9-EF96-4783-9530-956110ABEF4E</string>
 	<key>NoSyncLastTipTime</key>
-	<real>485823175.86625201</real>
+	<real>492499086.20972002</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2168,6 +2170,7 @@
 		<string>0054</string>
 		<string>0055</string>
 		<string>0056</string>
+		<string>0057</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
@@ -2207,7 +2210,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/wxactly/dotfiles/iterm2</string>
+	<string>/Users/wx/dotfiles/iterm2</string>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUAutomaticallyUpdate</key>
@@ -2217,11 +2220,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing3.xml?shard=94</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=94</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-05-24T18:18:53Z</date>
+	<date>2016-08-10T05:18:06Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -2248,12 +2251,14 @@
 	<false/>
 	<key>UseLionStyleFullscreen</key>
 	<false/>
+	<key>WordCharacters</key>
+	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20160510</string>
+	<string>3.0.5</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
