@@ -7,7 +7,7 @@ alias n="notify"
 
 function restart() {
   if [ "$1" = "sites" ]; then
-    restart mariadb memcached redis php56 httpd22
+    restart mariadb memcached redis php56 httpd24
   else
     for service in "$@"
     do
