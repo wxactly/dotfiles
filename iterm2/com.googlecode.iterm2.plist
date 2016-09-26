@@ -1223,7 +1223,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/dotfiles/iterm2</string>
+	<string>/Applications</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -1262,14 +1262,18 @@
 	</dict>
 	<key>NSWindow Frame Preferences</key>
 	<string>266 344 606 456 0 0 1280 800 </string>
+	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
+	<string>412 545 616 174 0 0 1440 900 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>330 307 620 392 0 0 1280 800 </string>
+	<string>410 382 620 392 0 0 1440 900 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>269 139 606 456 0 0 1440 900 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>269 83 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>599 273 592 584 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1440 900 0 0 1440 877 </string>
+	<string>0 548 570 352 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>173 32 570 452 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -2109,7 +2113,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>BCA603C9-EF96-4783-9530-956110ABEF4E</string>
 	<key>NoSyncLastTipTime</key>
-	<real>492499086.20972002</real>
+	<real>493576024.68356198</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2181,8 +2185,18 @@
 		<string>0055</string>
 		<string>0056</string>
 		<string>0057</string>
+		<string>0058</string>
+		<string>0059</string>
+		<string>0060</string>
+		<string>0061</string>
+		<string>0062</string>
+		<string>0063</string>
+		<string>0064</string>
+		<string>0065</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
+	<false/>
+	<key>PMPrintingExpandedStateForPrint2</key>
 	<false/>
 	<key>PasteTabToStringTabStopSize</key>
 	<integer>2</integer>
@@ -2221,6 +2235,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/wx/dotfiles/iterm2</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUAutomaticallyUpdate</key>
@@ -2234,7 +2250,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-08-10T05:18:06Z</date>
+	<date>2016-09-10T02:33:39Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -2268,7 +2284,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.5</string>
+	<string>3.0.7</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
