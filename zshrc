@@ -38,6 +38,9 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 autoload -U compinit && compinit
+autoload -U bashcompinit && bashcompinit
+
+complete -W "`cat ~/.hcl/aliases`" hcl
 
 # http://superuser.com/a/479614/261574
 set -o ignoreeof
