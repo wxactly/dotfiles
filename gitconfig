@@ -29,3 +29,4 @@
   cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
 [alias]
   patch = --no-pager diff --no-color --relative
+  deploy = !git push && git push pantheon
