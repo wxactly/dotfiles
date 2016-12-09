@@ -30,12 +30,15 @@ plugins=(
   brew
   brew-cask
   composer
+  wp-cli
   extract
   alias-tips
   zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 autoload -U compinit && compinit
 autoload -U bashcompinit && bashcompinit
