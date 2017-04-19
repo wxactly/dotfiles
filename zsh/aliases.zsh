@@ -16,6 +16,23 @@ function restart() {
   fi
 }
 
+function stopstart() {
+  brew services stop $1
+  brew services start $2
+}
+
+function blackfire-enable() {
+  mv /usr/local/etc/php/5.6/conf.d/ext-blackfire.ini.bak /usr/local/etc/php/5.6/conf.d/ext-blackfire.ini
+  mv /usr/local/etc/php/5.6/conf.d/ext-xdebug.ini /usr/local/etc/php/5.6/conf.d/ext-xdebug.ini.bak
+  restart php56
+}
+
+function blackfire-disable() {
+  mv /usr/local/etc/php/5.6/conf.d/ext-blackfire.ini /usr/local/etc/php/5.6/conf.d/ext-blackfire.ini.bak
+  mv /usr/local/etc/php/5.6/conf.d/ext-xdebug.ini.bak /usr/local/etc/php/5.6/conf.d/ext-xdebug.ini
+  restart php56
+}
+
 # Drupal and Drush aliases.
 # https://github.com/nuvoleweb/drush_alias
 alias drsp='cp sites/default/default.settings.php sites/default/settings.php'
