@@ -1,14 +1,6 @@
 {
   "require": {
-    "consolidation/robo": "~1",
-    "michelf/php-markdown": "^1.0",
-    "erusev/parsedown": "^1.6",
-    "henrikbjorn/lurker": "^1.1",
-    "natxet/CssMin": "^3.0",
-    "patchwork/jsqueeze": "^2.0",
-    "pear/archive_tar": "^1.4",
-    "natxet/cssmin": "^3.0",
-    "drush/config-extra": "^1.0"
+    "pantheon-systems/terminus": "^1.4"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
