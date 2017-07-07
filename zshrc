@@ -48,3 +48,4 @@ complete -W "`cat ~/.hcl/aliases`" hcl
 # http://superuser.com/a/479614/261574
 set -o ignoreeof
 
+export PATH="/usr/local/opt/php-code-sniffer@2.9/bin:$PATH"

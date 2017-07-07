@@ -1,3 +1,5 @@
+unalias cgr
+
 alias git=hub
 alias hcl="RBENV_VERSION=2.0.0-p648 hcl"
 

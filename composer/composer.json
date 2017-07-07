@@ -1,6 +1,6 @@
 {
   "require": {
-    "pantheon-systems/terminus": "^1.4"
+    "consolidation/cgr": "^2.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
