@@ -3,4 +3,4 @@ auth.json
 config.json
 cache/
 vendor/
-global/
+global/**/vendor
