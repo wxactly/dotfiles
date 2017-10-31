@@ -6,20 +6,20 @@ alias hcl="RBENV_VERSION=2.0.0-p648 hcl"
 alias vimrc="vim ~/.vimrc"
 alias rmt="rmtrash"
 alias n="notify"
+alias rs="restart"
+alias ss="stopstart"
 
 function restart() {
-  if [ "$1" = "sites" ]; then
-    restart mariadb memcached redis php56 httpd24
-  else
-    for service in "$@"
-    do
-      brew services restart "$service"
-    done
-  fi
+  for service in "$@"
+  do
+    brew services restart "$service"
+  done
 }
 
 function stopstart() {
   brew services stop $1
+  brew unlink $1
+  brew link $2
   brew services start $2
 }
 
@@ -53,5 +53,9 @@ alias druli='drush user-login -l'
 alias drev='drush php-eval'
 alias drmi='drush mi --all'
 alias drmr='drush mr --all'
+alias dreu='drush entity-updates'
+
+#Terminus aliases.
 alias tdr='terminus drush'
+alias twp='terminus wp'
 
