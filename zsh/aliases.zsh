@@ -38,7 +38,7 @@ function blackfire-disable() {
 # Drupal and Drush aliases.
 alias dr='drush'
 alias drcr='drush cache-rebuild; notify cache-rebuild complete'
-alias drcc='drcr'
+alias drcc='drush cache-clear all; notify cache-clear complete'
 alias drrr='drush registry-rebuild'
 alias drdb='drush updb'
 alias dren='drush pm-enable -y'
