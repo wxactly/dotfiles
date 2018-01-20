@@ -31,6 +31,7 @@ plugins=(
   brew-cask
   composer
   wp-cli
+  golang
   extract
   alias-tips
   zsh-syntax-highlighting
@@ -48,4 +49,6 @@ complete -W "`cat ~/.hcl/aliases`" hcl
 # http://superuser.com/a/479614/261574
 set -o ignoreeof
 
+export GOPATH=$(go env GOPATH)
+export PATH=$PATH:$GOPATH/bin
 export PATH="/usr/local/opt/php-code-sniffer@2.9/bin:$PATH"
