@@ -58,4 +58,9 @@ alias dreu='drush entity-updates'
 #Terminus aliases.
 alias tdr='terminus drush'
 alias twp='terminus wp'
+alias tcc='terminus env:clear-cache'
+alias tdv='terminus dashboard:view'
+alias tww='terminus workflow:watch'
+alias tbg='terminus backup:get --element=database'
+alias tbc='terminus backup:create --element=database'
 
