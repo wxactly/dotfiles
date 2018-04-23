@@ -18,8 +18,6 @@ function restart() {
 
 function stopstart() {
   brew services stop $1
-  brew unlink $1
-  brew link $2
   brew services start $2
 }
 
