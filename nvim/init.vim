@@ -1,17 +1,17 @@
-set number             " Show line numbers
-set nowrap             " don't wrap lines
-set tabstop=2          " a tab is two spaces
-set shiftwidth=2       " an autoindent (with <<) is two spaces
-set expandtab          " use spaces, not tabs
-set list               " Show invisible characters
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 
-set ignorecase         " searches are case insensitive...
-set smartcase          " ... unless they contain at least one capital letter
-
-set listchars=trail:\ ,tab:\ \ ,precedes:«,extends:»
+set ignorecase
+set smartcase
 
 let mapleader = ","
 let maplocalleader = "\\"
+
+let g:EasyClipAlwaysMoveCursorToEndOfPaste = 1
+let g:EasyClipShareYanks = 1
+let g:EasyClipUseSubstituteDefaults = 1
 
 nnoremap ; :
 nnoremap : ;
@@ -24,8 +24,4 @@ vnoremap jk <Esc>
 vnoremap kj <Esc>
 
 nnoremap Y y$
-
-let g:EasyClipAlwaysMoveCursorToEndOfPaste = 1
-let g:EasyClipShareYanks = 1
-let g:EasyClipUseSubstituteDefaults = 1
 
