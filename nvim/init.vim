@@ -1,12 +1,12 @@
-set number                   " Show line numbers
-set nowrap                   " don't wrap lines
-set tabstop=2                " a tab is two spaces
-set shiftwidth=2             " an autoindent (with <<) is two spaces
-set expandtab                " use spaces, not tabs
-set list                     " Show invisible characters
+set number             " Show line numbers
+set nowrap             " don't wrap lines
+set tabstop=2          " a tab is two spaces
+set shiftwidth=2       " an autoindent (with <<) is two spaces
+set expandtab          " use spaces, not tabs
+set list               " Show invisible characters
 
-set ignorecase               " searches are case insensitive...
-set smartcase                " ... unless they contain at least one capital letter
+set ignorecase         " searches are case insensitive...
+set smartcase          " ... unless they contain at least one capital letter
 
 set listchars=trail:\ ,tab:\ \ ,precedes:«,extends:»
 
@@ -18,13 +18,14 @@ nnoremap : ;
 vnoremap ; :
 vnoremap : ;
 
-nnoremap m d
-nnoremap M D
-vnoremap m d
-vnoremap M D
-
 inoremap jk <Esc>
 inoremap kj <Esc>
 vnoremap jk <Esc>
 vnoremap kj <Esc>
+
+nnoremap Y y$
+
+let g:EasyClipAlwaysMoveCursorToEndOfPaste = 1
+let g:EasyClipShareYanks = 1
+let g:EasyClipUseSubstituteDefaults = 1
 
