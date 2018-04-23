@@ -8,6 +8,7 @@
 - link:
     ~/.ackrc: ackrc
     ~/.composer: composer
+    ~/.config/nvim/init.vim: nvim/init.vim
     ~/.gitconfig: gitconfig
     ~/.gitignore: gitignore
     ~/.oh-my-zsh: oh-my-zsh
