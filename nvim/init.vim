@@ -6,6 +6,8 @@ set shiftwidth=2
 set ignorecase
 set smartcase
 
+set clipboard=unnamed
+
 let mapleader = ","
 let maplocalleader = "\\"
 
