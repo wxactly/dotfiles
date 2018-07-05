@@ -51,4 +51,4 @@ set -o ignoreeof
 
 export GOPATH=$(go env GOPATH)
 export PATH=$PATH:$GOPATH/bin
-export PATH="/usr/local/opt/php-code-sniffer@2.9/bin:$PATH"
+

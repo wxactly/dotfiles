@@ -7,7 +7,6 @@ alias vimrc="vim ~/.vimrc"
 alias rmt="rmtrash"
 alias n="notify"
 alias rs="restart"
-alias ss="stopstart"
 
 function restart() {
   for service in "$@"
@@ -16,21 +15,18 @@ function restart() {
   done
 }
 
-function stopstart() {
-  brew services stop $1
-  brew services start $2
-}
-
 function blackfire-enable() {
   mv /usr/local/etc/php/5.6/conf.d/ext-blackfire.ini.bak /usr/local/etc/php/5.6/conf.d/ext-blackfire.ini
-  mv /usr/local/etc/php/5.6/conf.d/ext-xdebug.ini /usr/local/etc/php/5.6/conf.d/ext-xdebug.ini.bak
-  restart php56
+  echo "Blackfire is enabled. Disable xdebug now:"
+  echo "vim /usr/local/etc/php/5.6/php.ini"
+  echo "brew services restart php@5.6"
 }
 
 function blackfire-disable() {
   mv /usr/local/etc/php/5.6/conf.d/ext-blackfire.ini /usr/local/etc/php/5.6/conf.d/ext-blackfire.ini.bak
-  mv /usr/local/etc/php/5.6/conf.d/ext-xdebug.ini.bak /usr/local/etc/php/5.6/conf.d/ext-xdebug.ini
-  restart php56
+  echo "Blackfire is disabled. Enable xdebug now:"
+  echo "vim /usr/local/etc/php/5.6/php.ini"
+  echo "brew services restart php@5.6"
 }
 
 # Drupal and Drush aliases.
@@ -60,5 +56,9 @@ alias tcc='terminus env:clear-cache'
 alias tdv='terminus dashboard:view'
 alias tww='terminus workflow:watch'
 alias tbg='terminus backup:get --element=database'
-alias tbc='terminus backup:create --element=database'
+
+function tbc() {
+  terminus backup:create --element=database $@
+  terminus backup:get --element=database $@
+}
 
