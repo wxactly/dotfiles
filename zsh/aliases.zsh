@@ -1,6 +1,7 @@
 unalias cgr
 
 alias git=hub
+alias gmod="git merge origin/develop"
 alias hcl="RBENV_VERSION=2.0.0-p648 hcl"
 
 alias vimrc="vim ~/.vimrc"
@@ -43,7 +44,7 @@ alias drfua='drush -y features-update-all'
 alias drfu='drush -y features-update'
 alias drfra='drush -y features-revert-all'
 alias drfr='drush -y features-revert'
-alias druli='drush user-login -l'
+alias druli='drush user-login'
 alias drev='drush php-eval'
 alias drmi='drush mi --all'
 alias drmr='drush mr --all'
