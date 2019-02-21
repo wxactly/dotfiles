@@ -30,3 +30,5 @@
 [alias]
   patch = --no-pager diff --no-color --relative
   deploy = !git push && git push pantheon
+[pull]
+	rebase = true
