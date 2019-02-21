@@ -29,6 +29,11 @@ set smartcase                " ... unless they contain at least one capital lett
 set clipboard=unnamed        " Use the system clipboard
 set noshowmode               " Hide insert mode display - handled by theme
 
+" Spell check
+autocmd FileType mail setlocal spell spelllang=en_us
+autocmd BufRead COMMIT_EDITMSG setlocal spell spelllang=en_us
+autocmd BufNewFile,BufRead *.md,*.mkd,*.markdown set spell spelllang=en_us
+
 " Set backup directories
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
