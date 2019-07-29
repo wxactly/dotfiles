@@ -3,6 +3,7 @@ unalias cgr
 alias git=hub
 alias gmod="git merge origin/develop"
 alias hcl="RBENV_VERSION=2.0.0-p648 hcl"
+alias composer="COMPOSER_MEMORY_LIMIT=-1 composer"
 
 alias vimrc="vim ~/.vimrc"
 alias rmt="rmtrash"
@@ -51,11 +52,28 @@ alias drmr='drush mr --all'
 alias dreu='drush entity-updates'
 
 #Terminus aliases.
+alias terminus-develop='TERMINUS_ENV=develop terminus'
+alias terminus-test='TERMINUS_ENV=test terminus'
+alias terminus-live='TERMINUS_ENV=live terminus'
+
 alias tdr='terminus drush'
+alias tddr='terminus-develop drush'
+alias ttdr='terminus-test drush'
+alias tldr='terminus-live drush'
+
 alias twp='terminus wp'
+alias tdwp='terminus-develop wp'
+alias ttwp='terminus-test wp'
+alias tlwp='terminus-live wp'
+
 alias tcc='terminus env:clear-cache'
+alias tdcc='terminus-develop env:clear-cache'
+alias ttcc='terminus-test env:clear-cache'
+alias tlcc='terminus-live env:clear-cache'
+
 alias tdv='terminus dashboard:view'
 alias tww='terminus workflow:watch'
+
 alias tbg='terminus backup:get --element=database'
 
 function tbc() {
