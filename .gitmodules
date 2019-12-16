@@ -26,9 +26,6 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh
-[submodule "zsh/plugins/alias-tips"]
-	path = zsh/plugins/alias-tips
-	url = https://github.com/djui/alias-tips
 [submodule "zsh/plugins/zsh-saneopt"]
 	path = zsh/plugins/saneopt
 	url = https://github.com/willghatch/zsh-saneopt

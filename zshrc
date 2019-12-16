@@ -36,7 +36,7 @@ plugins=(
   wp-cli
   golang
   extract
-  alias-tips
+  alias-finder
   zsh-syntax-highlighting
 )
 
