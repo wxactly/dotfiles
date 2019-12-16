@@ -23,7 +23,7 @@ export ZSH_PLUGINS_ALIAS_TIPS_EXPAND=1
 
 # Oh My Zsh
 plugins=(
-  zsh-saneopt
+  saneopt
   vi-mode
   zsh-completions
   common-aliases
@@ -32,7 +32,6 @@ plugins=(
   git
   git-extras
   brew
-  brew-cask
   composer
   wp-cli
   golang

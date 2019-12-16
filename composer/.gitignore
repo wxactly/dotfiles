@@ -1,6 +1,7 @@
 *.phar
 auth.json
 config.json
+keys.*
 cache/
 vendor/
 global/**/vendor

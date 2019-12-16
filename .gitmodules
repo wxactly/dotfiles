@@ -30,7 +30,7 @@
 	path = zsh/plugins/alias-tips
 	url = https://github.com/djui/alias-tips
 [submodule "zsh/plugins/zsh-saneopt"]
-	path = zsh/plugins/zsh-saneopt
+	path = zsh/plugins/saneopt
 	url = https://github.com/willghatch/zsh-saneopt
 [submodule "zsh/plugins/zsh-syntax-highlighting"]
 	path = zsh/plugins/zsh-syntax-highlighting
