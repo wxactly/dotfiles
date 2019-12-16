@@ -18,8 +18,8 @@ DISABLE_AUTO_UPDATE=true
 # Disable auto-setting terminal title.
 DISABLE_AUTO_TITLE="true"
 
-# Expand command to get best alias.
-export ZSH_PLUGINS_ALIAS_TIPS_EXPAND=1
+# Automatically check for aliases
+ZSH_ALIAS_FINDER_AUTOMATIC=true
 
 # Oh My Zsh
 plugins=(
