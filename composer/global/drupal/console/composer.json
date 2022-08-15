@@ -1,7 +1,4 @@
 {
-    "require": {
-        "drupal/console": "^1.9"
-    },
     "config": {
         "allow-plugins": {
             "composer/installers": true,
