@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "289c9e780af73eb742c05ec0ac47cb2a",
+    "content-hash": "83d73360ce7d023e2e32d6b3044608d5",
     "packages": [
         {
             "name": "consolidation/cgr",
@@ -58,57 +58,6 @@
                 "package"
             ],
             "time": "2017-03-14T00:04:39+00:00"
-        },
-        {
-            "name": "hirak/prestissimo",
-            "version": "0.3.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hirak/prestissimo.git",
-                "reference": "45fcc8a65fb06b29cc5cdd1b0bae7a690aa09496"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hirak/prestissimo/zipball/45fcc8a65fb06b29cc5cdd1b0bae7a690aa09496",
-                "reference": "45fcc8a65fb06b29cc5cdd1b0bae7a690aa09496",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0.0",
-                "ext-curl": "*",
-                "php": "^5.3.2 || ^7.0"
-            },
-            "require-dev": {
-                "composer/composer": "1.0.0",
-                "phpunit/phpunit": "^4.8",
-                "squizlabs/php_codesniffer": "^2.5"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Hirak\\Prestissimo\\Plugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Hirak\\Prestissimo\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Hiraku NAKANO",
-                    "email": "hiraku@tojiru.net"
-                }
-            ],
-            "description": "composer parallel install plugin",
-            "keywords": [
-                "install",
-                "parallel",
-                "speedup"
-            ],
-            "time": "2017-05-27T04:45:45+00:00"
         }
     ],
     "packages-dev": [],
@@ -118,5 +67,6 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
 }

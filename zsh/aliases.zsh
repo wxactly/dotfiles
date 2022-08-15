@@ -1,14 +1,15 @@
 unalias cgr
 
-alias git=hub
+alias gcm="git checkout main"
+alias gmom="git merge origin/main"
 alias gmod="git merge origin/develop"
 alias hcl="RBENV_VERSION=2.0.0-p648 hcl"
-alias composer="COMPOSER_MEMORY_LIMIT=-1 composer"
 
 alias vimrc="vim ~/.vimrc"
-alias rmt="rmtrash"
+alias rmt="trash"
 alias n="notify"
 alias rs="restart"
+alias gs="gsb"
 
 function restart() {
   for service in "$@"
@@ -33,10 +34,12 @@ function blackfire-disable() {
 
 # Drupal and Drush aliases.
 alias dr='drush'
-alias drcr='drush cache-rebuild; notify cache-rebuild complete'
-alias drcc='drush cache-clear all; notify cache-clear complete'
+alias drcr='drush cache-rebuild --notify'
+alias drcc='drush cache-clear all --notify'
 alias drrr='drush registry-rebuild'
-alias drdb='drush updb'
+alias drdb='drush updb --notify'
+alias drcim='drush cim --notify'
+alias drcex='drush cex --notify'
 alias dren='drush pm-enable -y'
 alias drun='drush pm-uninstall'
 alias drf='drush features'
