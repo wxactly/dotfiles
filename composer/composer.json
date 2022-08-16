@@ -1,7 +1,5 @@
 {
-  "require": {
-    "consolidation/cgr": "^2.0"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+    "require": {
+        "consolidation/cgr": "^2.0"
+    }
 }
