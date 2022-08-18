@@ -1,6 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_CUSTOM=$HOME/.zsh
-ZSH_THEME="wxactly"
+ZSH_THEME="robbyrussell"
 
 export PATH="./vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
 
@@ -37,7 +37,7 @@ ZSH_ALIAS_FINDER_AUTOMATIC=true
 # Which plugins would you like to load?
 plugins=(
   saneopt
-  vi-mode
+  zsh-vi-mode
   zsh-completions
   common-aliases
   fasd
@@ -46,7 +46,7 @@ plugins=(
   brew
   composer
   extract
-  alias-finder
+#  alias-finder
   zsh-syntax-highlighting
 )
 source $ZSH/oh-my-zsh.sh

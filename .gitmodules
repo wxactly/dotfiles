@@ -50,3 +50,6 @@
 [submodule "vim/bundle/disco.vim"]
 	path = vim/bundle/disco.vim
 	url = https://github.com/jsit/disco.vim.git
+[submodule "zsh/plugins/zsh-vi-mode"]
+	path = zsh/plugins/zsh-vi-mode
+	url = https://github.com/jeffreytse/zsh-vi-mode
