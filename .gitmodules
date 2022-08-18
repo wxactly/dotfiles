@@ -47,3 +47,6 @@
 [submodule "vim/bundle/vim-vinegar"]
 	path = vim/bundle/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar.git
+[submodule "vim/bundle/disco.vim"]
+	path = vim/bundle/disco.vim
+	url = https://github.com/jsit/disco.vim.git
