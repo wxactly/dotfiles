@@ -121,6 +121,8 @@ imap <A-[> <Esc><<i
 set background=dark          " tell vim we're using a dark background
 
 colorscheme disco
+hi clear SpellBad
+hi SpellBad cterm=underline
 
 let g:lightline = {
 \ 'active': {
