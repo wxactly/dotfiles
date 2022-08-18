@@ -120,8 +120,9 @@ imap <A-[> <Esc><<i
 
 set background=dark          " tell vim we're using a dark background
 
+colorscheme disco
+
 let g:lightline = {
-\ 'colorscheme': 'wombat',
 \ 'active': {
 \   'left': [ [ 'mode', 'paste' ],
 \             [ 'fugitive', 'readonly', 'relativepath', 'modified' ] ]
