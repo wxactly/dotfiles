@@ -34,6 +34,43 @@ autocmd FileType mail setlocal spell spelllang=en_us
 autocmd BufRead COMMIT_EDITMSG setlocal spell spelllang=en_us
 autocmd BufNewFile,BufRead *.md,*.mkd,*.markdown set spell spelllang=en_us
 
+" Force to use underline for spell check results
+augroup SpellUnderline
+  autocmd!
+  autocmd ColorScheme *
+    \ highlight SpellBad
+    \   cterm=Underline
+    \   ctermfg=NONE
+    \   ctermbg=NONE
+    \   term=Reverse
+    \   gui=Undercurl
+    \   guisp=Red
+  autocmd ColorScheme *
+    \ highlight SpellCap
+    \   cterm=Underline
+    \   ctermfg=NONE
+    \   ctermbg=NONE
+    \   term=Reverse
+    \   gui=Undercurl
+    \   guisp=Red
+  autocmd ColorScheme *
+    \ highlight SpellLocal
+    \   cterm=Underline
+    \   ctermfg=NONE
+    \   ctermbg=NONE
+    \   term=Reverse
+    \   gui=Undercurl
+    \   guisp=Red
+  autocmd ColorScheme *
+    \ highlight SpellRare
+    \   cterm=Underline
+    \   ctermfg=NONE
+    \   ctermbg=NONE
+    \   term=Reverse
+    \   gui=Undercurl
+    \   guisp=Red
+  augroup END
+
 " Set backup directories
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
@@ -115,14 +152,15 @@ omap <A-[> <<
 imap <A-]> <Esc>>>i
 imap <A-[> <Esc><<i
 
+" Use a line cursor within insert mode and a block cursor everywhere else.
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
 
 " THEME
 
 set background=dark          " tell vim we're using a dark background
 
 colorscheme disco
-hi clear SpellBad
-hi SpellBad cterm=underline
 
 let g:lightline = {
 \ 'active': {
