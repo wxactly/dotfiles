@@ -4,6 +4,8 @@ alias gcm="git checkout main"
 alias gmom="git merge origin/main"
 alias gmod="git merge origin/develop"
 alias hcl="RBENV_VERSION=2.0.0-p648 hcl"
+alias gmt="git mergetool"
+alias python="python3"
 
 alias vimrc="vim ~/.vimrc"
 alias rmt="trash"

@@ -14,21 +14,25 @@
 [color]
   ui = true
 [diff]
-  tool = p4mergetool
+  tool = pstorm
   algorithm = patience
   compactionheuristic = true
   renamelimit = 10000
+[difftool]
+  prompt = false
 [merge]
-  tool = p4mergetool
+  tool = pstorm
   renamelimit = 10000
 [mergetool]
   keepbackup = false
-[mergetool "p4mergetool"]
-  cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$LOCAL $PWD/$REMOTE $PWD/$MERGED
-[difftool "p4mergetool"]
-  cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
+[difftool.pstorm]
+  cmd = /usr/local/bin/pstorm diff "$LOCAL" "$REMOTE"
+[mergetool.pstorm]
+  cmd = /usr/local/bin/pstorm merge "$LOCAL" "$REMOTE" "$BASE" "$MERGED"
 [alias]
   patch = --no-pager diff --no-color --relative
   deploy = !git push && git push pantheon
 [pull]
 	rebase = true
+[checkout]
+	defaultRemote = origin
